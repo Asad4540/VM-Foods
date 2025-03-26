@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background: #FFF5EC;
+    /* background: #FFF5EC; */
 }
 
 h1 {
@@ -30,27 +30,72 @@ h1 {
     font-family: poppins;
 }
 
-.navbar-nav{
-    gap:50px;
+.navbar-nav {
+    gap: 50px;
 }
 
-.hero-title{
+.hero-title {
     font-family: Anton;
     font-size: 93px;
     line-height: 112px;
     color: #000;
 }
 
-.hero-subtitle{
+.hero-subtitle {
     color: #3A3A3AB2;
     font-size: 18px;
     font-family: Poppins;
     font-weight: 400;
 }
 
+.y-with-icon {
+    position: relative;
+}
 
+.y-with-icon:before {
+    content: url("../images/specs.png");
+    position: absolute;
+    top: -20px;
+}
 
+.btn-with-logo {
+    position: relative;
+}
 
+.btn-with-logo:before {
+    content: url("../images/spaceship.png");
+    position: absolute;
+    top: -77px;
+    left: 146px;
+}
+
+.fade-img {}
+
+.fade-img-prop {
+    width: 100%;
+}
+
+.except-title {
+    font-family: Anton;
+    font-weight: 400;
+    font-size: 93px;
+    line-height: 93px;
+    letter-spacing: 0.48px;
+}
+
+.makes-exceptional {
+    max-width: 70%;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    text-align: center;
+    vertical-align: middle;
+    color: #7E7C7C;
+    margin-bottom: 125px;
+
+}
 
 
 /* ------------------------------------------------------------------------------------- */
@@ -61,7 +106,7 @@ h1 {
     }
 }
 
-.container-fluid{
+.container-fluid {
     width: 85%;
 }
 
@@ -77,9 +122,9 @@ h1 {
 .section-one {
     /* background-image: url('../images/hero-bg.png'); */
     background-image: linear-gradient(#FFF29FA1, #FFD1BB78);
-    height: 900px;
-    background-size: contain;
-    background-repeat: no-repeat;
+    /* height: 900px; */
+    /* background-size: contain;
+    background-repeat: no-repeat; */
 }
 
 .hero-bg-row {
@@ -94,9 +139,8 @@ h1 {
 
 .hero-typography {
     /* max-width: 55%; */
- 
-}
 
+}
 
 .button-container button {
     display: inline-flex;
@@ -129,10 +173,6 @@ h1 {
 
 .hero-bg-row .row {
     display: flex;
-}
-
-.makes-exceptional {
-    max-width: 70%;
 }
 
 .exeption-images-container {
@@ -890,7 +930,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
     .section-one {
-        background-size: cover;
+        /* background-size: cover; */
         height: 850px;
     }
 
@@ -1264,13 +1304,13 @@ footer {
 
 @media only screen and (min-width: 991px) and (max-width: 1400px) {
     .section-one {
-        height: 500px
+        /* height: 600px */
     }
 }
 
 @media only screen and (min-width: 1400px) {
     .section-one {
-        height: 680px;
+        /* height:910px; */
     }
 }
 
